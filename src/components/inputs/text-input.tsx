@@ -14,7 +14,7 @@ export default function CustomTextInput(
         ${
           !props.className?.includes('border') &&
           'border-2 border-gray-400 rounded-[20px]'
-        } text-white`,
+        } dark:text-slate-100 text-slate-800`,
         props.className,
       )}
     />
